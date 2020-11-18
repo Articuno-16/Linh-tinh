@@ -82,7 +82,6 @@ public:
         if (s_second.length() == 1) s_second = "0" + s_second;
         if (s_hour.length() == 1) s_hour = "0" + s_hour;
         if (s_minute.length() == 1) s_minute = "0" + s_minute;
-        //printf("%s:%s:%s",s_hour,s_minute,s_second);
         cout << s_hour << ":" << s_minute << ":" << s_second << endl;
     }
 };
@@ -102,3 +101,5 @@ int main() {
 	t.display();
 	return 0;
 }
+
+// next part: http://cpp.sh/6f6yj
